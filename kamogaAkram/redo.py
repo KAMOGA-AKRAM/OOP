@@ -14,4 +14,4 @@ class Hostel:
         self.name = name
         self.visits=[]
 
-    def record_visit9    
+    def record_visit 
