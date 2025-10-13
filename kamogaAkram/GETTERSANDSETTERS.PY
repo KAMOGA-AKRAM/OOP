@@ -7,7 +7,7 @@ class BankAccount:
     
 
     def set_balance(self,amount):
-        if amount >= 0
-        self.balance = 
-
-        
+        if amount >= 0:
+            self.balance = amount
+        else:
+            print("Invalid amount. Balance cannot be negative.")
