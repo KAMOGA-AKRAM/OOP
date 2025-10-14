@@ -11,14 +11,18 @@ class Student(Person):
         super().__init__(name)
         self.programme = programme
         self.year = year
-    
+
+    def introduce(self):
+        return f'Hello, I am {self.name}, a {self.year} year student of {self.programme}.'
 
 
 class Lecturer(Person):
     def __init__(self,name,department):
         super().__init__(name)
         self.department = department
-        
+
+    def introduce(self):
+        return f'Hello, I am {self.name}, a lecturer in the {self.department} department.'
 
 p = Person('AKRAM')
 s = Student('paul','computer science',2)
