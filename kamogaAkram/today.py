@@ -25,7 +25,7 @@ class Lecturer(Person):
         return f'Hello, I am {self.name}, a lecturer in the {self.department} department.'
 
 p = Person('AKRAM')
-s = Student('paul','computer science',2)
+s = Student('akram','computer science',2)
 l = Lecturer('bomboclat','IT')
 
 print(p.introduce())
