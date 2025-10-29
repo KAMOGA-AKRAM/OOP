@@ -9,7 +9,7 @@ class Resident:
         self.room = room
 
 class Hostel:
-    def __init__(self, ):
+    def __init__(self,name):
         self.name = name
         self.visits = []  # to store visits
 
