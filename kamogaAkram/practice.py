@@ -25,4 +25,25 @@ my_bike = bike()
 print(my_bike.display_info())
 
 
+class Man:
+    def __init__(self,name):
+        self.name = name
+
+    def introduce(self):
+        return(f'greetings my name is:{self.name}') 
+    
+class Woman(Man):
+    def __init__(self,name,profession):
+        super().__init__(name)
+        self.profession = profession
+
+    def introduce(self):
+        return f'Hello, I am {self.name}, and I work as a {self.profession}.'
+w = Woman('akram','engineer')                       
+print(w.introduce())
+m = Man('akram')        
+
+print(m.introduce())    
+    
+
 
