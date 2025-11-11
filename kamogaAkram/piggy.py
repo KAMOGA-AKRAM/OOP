@@ -1,11 +1,3 @@
-coins = 100
-
-
-coins = 100 + 500
-print('i have:', coins,'coins')
-
-coins  = -999
-
 
 class PiggyBank:
     def __init__(self,coins):
